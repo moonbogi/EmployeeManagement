@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow()
         window?.makeKeyAndVisible()
-        let companiesController = ViewController()
+        let companiesController = CompaniesController()
         let navController = CustomNavigationController(rootViewController: companiesController)
         window?.rootViewController = navController
         return true
