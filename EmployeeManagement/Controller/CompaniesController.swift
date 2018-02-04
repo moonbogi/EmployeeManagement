@@ -25,7 +25,6 @@ class CompaniesController: UITableViewController {
         tableView.tableFooterView = UIView()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cellId")
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "plus"), style: .plain, target: self, action: #selector(handleAddCompany))
-        setupNavigationBarStyle()
     }
     
     // MARK: - Button Action
@@ -53,9 +52,7 @@ class CompaniesController: UITableViewController {
         cell.backgroundColor = .tealColor
         
         let company = companies[indexPath.row]
-        
         cell.textLabel?.text = company.name
-
         cell.textLabel?.textColor = .white
         cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 16)
         return cell

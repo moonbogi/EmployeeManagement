@@ -62,17 +62,14 @@
 		0A99F13B20266F6B00D41AC1 /* EmployeeManagement */ = {
 			isa = PBXGroup;
 			children = (
-				0A99F15420268F2F00D41AC1 /* Model */,
-				0A99F13C20266F6B00D41AC1 /* AppDelegate.swift */,
-				0A99F13E20266F6B00D41AC1 /* CompaniesController.swift */,
-				0A99F14020266F6B00D41AC1 /* Main.storyboard */,
 				0A99F14320266F6B00D41AC1 /* Assets.xcassets */,
-				0A99F14520266F6B00D41AC1 /* LaunchScreen.storyboard */,
+				0A99F13C20266F6B00D41AC1 /* AppDelegate.swift */,
+				0A99F15A202693B500D41AC1 /* Extension */,
+				0A99F1592026937B00D41AC1 /* UI */,
+				0A99F1582026936A00D41AC1 /* Controller */,
+				0A99F1572026936300D41AC1 /* View */,
+				0A99F15420268F2F00D41AC1 /* Model */,
 				0A99F14820266F6B00D41AC1 /* Info.plist */,
-				0A99F14E2026801300D41AC1 /* UIColor+Theme.swift */,
-				0A99F150202688DB00D41AC1 /* Company.swift */,
-				0A99F15220268F2600D41AC1 /* CreateCompanyController.swift */,
-				0A99F1552026913200D41AC1 /* UIViewController+NavBarStyle.swift */,
 			);
 			path = EmployeeManagement;
 			sourceTree = "<group>";
@@ -80,8 +77,43 @@
 		0A99F15420268F2F00D41AC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0A99F150202688DB00D41AC1 /* Company.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0A99F1572026936300D41AC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A99F1582026936A00D41AC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A99F13E20266F6B00D41AC1 /* CompaniesController.swift */,
+				0A99F15220268F2600D41AC1 /* CreateCompanyController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A99F1592026937B00D41AC1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0A99F14520266F6B00D41AC1 /* LaunchScreen.storyboard */,
+				0A99F14020266F6B00D41AC1 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0A99F15A202693B500D41AC1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A99F14E2026801300D41AC1 /* UIColor+Theme.swift */,
+				0A99F1552026913200D41AC1 /* UIViewController+NavBarStyle.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
