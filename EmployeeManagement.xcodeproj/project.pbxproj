@@ -12,6 +12,7 @@
 		0A99F14220266F6B00D41AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A99F14020266F6B00D41AC1 /* Main.storyboard */; };
 		0A99F14420266F6B00D41AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A99F14320266F6B00D41AC1 /* Assets.xcassets */; };
 		0A99F14720266F6B00D41AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A99F14520266F6B00D41AC1 /* LaunchScreen.storyboard */; };
+		0A99F14F2026801300D41AC1 /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99F14E2026801300D41AC1 /* UIColor+Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0A99F14320266F6B00D41AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A99F14620266F6B00D41AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A99F14820266F6B00D41AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A99F14E2026801300D41AC1 /* UIColor+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0A99F14320266F6B00D41AC1 /* Assets.xcassets */,
 				0A99F14520266F6B00D41AC1 /* LaunchScreen.storyboard */,
 				0A99F14820266F6B00D41AC1 /* Info.plist */,
+				0A99F14E2026801300D41AC1 /* UIColor+Theme.swift */,
 			);
 			path = EmployeeManagement;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A99F14F2026801300D41AC1 /* UIColor+Theme.swift in Sources */,
 				0A99F13F20266F6B00D41AC1 /* ViewController.swift in Sources */,
 				0A99F13D20266F6B00D41AC1 /* AppDelegate.swift in Sources */,
 			);
