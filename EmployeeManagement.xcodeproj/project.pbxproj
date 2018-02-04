@@ -13,10 +13,9 @@
 		0A99F14420266F6B00D41AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A99F14320266F6B00D41AC1 /* Assets.xcassets */; };
 		0A99F14720266F6B00D41AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A99F14520266F6B00D41AC1 /* LaunchScreen.storyboard */; };
 		0A99F14F2026801300D41AC1 /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99F14E2026801300D41AC1 /* UIColor+Theme.swift */; };
-		0A99F151202688DB00D41AC1 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99F150202688DB00D41AC1 /* Company.swift */; };
 		0A99F15320268F2600D41AC1 /* CreateCompanyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99F15220268F2600D41AC1 /* CreateCompanyController.swift */; };
-		0A99F1562026913200D41AC1 /* UIViewController+NavBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99F1552026913200D41AC1 /* UIViewController+NavBarStyle.swift */; };
 		0A99F1602026BD6C00D41AC1 /* EmployeeManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A99F15E2026BD6C00D41AC1 /* EmployeeManagement.xcdatamodeld */; };
+		0ADE04AD2026C634002B7938 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADE04AC2026C634002B7938 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +27,9 @@
 		0A99F14620266F6B00D41AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A99F14820266F6B00D41AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A99F14E2026801300D41AC1 /* UIColor+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
-		0A99F150202688DB00D41AC1 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		0A99F15220268F2600D41AC1 /* CreateCompanyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyController.swift; sourceTree = "<group>"; };
-		0A99F1552026913200D41AC1 /* UIViewController+NavBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavBarStyle.swift"; sourceTree = "<group>"; };
 		0A99F15F2026BD6C00D41AC1 /* EmployeeManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmployeeManagement.xcdatamodel; sourceTree = "<group>"; };
+		0ADE04AC2026C634002B7938 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +78,7 @@
 		0A99F15420268F2F00D41AC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0A99F150202688DB00D41AC1 /* Company.swift */,
+				0ADE04AC2026C634002B7938 /* CoreDataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				0A99F14E2026801300D41AC1 /* UIColor+Theme.swift */,
-				0A99F1552026913200D41AC1 /* UIViewController+NavBarStyle.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -196,8 +193,7 @@
 				0A99F13F20266F6B00D41AC1 /* CompaniesController.swift in Sources */,
 				0A99F15320268F2600D41AC1 /* CreateCompanyController.swift in Sources */,
 				0A99F13D20266F6B00D41AC1 /* AppDelegate.swift in Sources */,
-				0A99F1562026913200D41AC1 /* UIViewController+NavBarStyle.swift in Sources */,
-				0A99F151202688DB00D41AC1 /* Company.swift in Sources */,
+				0ADE04AD2026C634002B7938 /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

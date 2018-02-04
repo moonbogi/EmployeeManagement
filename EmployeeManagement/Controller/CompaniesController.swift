@@ -23,26 +23,21 @@ class CompaniesController: UITableViewController, CreateCompanyControllerDelegat
     var companies = [Company]()
 
     private func fetchCompanies() {
-        // Attempt CoreData fetch
-        let persistentContainer = NSPersistentContainer(name: "EmployeeManagement")
-        persistentContainer.loadPersistentStores { (storeDescription, err) in
-            if let err = err {
-                fatalError("Loading of store failed: \(err)")
-            }
-        }
-        
-        let context = persistentContainer.viewContext
+        let context = CoreDataManager.shared.persistentContainer.viewContext
         let fetchRequest = NSFetchRequest<Company>(entityName: "Company")
         do {
             let companies = try context.fetch(fetchRequest)
             companies.forEach({ (company) in
                 print(company.name ?? "")
             })
+            self.companies = companies
+            self.tableView.reloadData()
+            
         } catch let fetchErr {
             print("Failed to fetch companies: ", fetchErr)
         }
-        
     }
+    
     // MARK: - ViewController Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -90,4 +85,3 @@ class CompaniesController: UITableViewController, CreateCompanyControllerDelegat
         return companies.count
     }
 }
-
